@@ -1,0 +1,12 @@
+
+@media screen and (min-width: 600px) {
+    .home-bg-image{
+        max-width: 280rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .home-bg-image{
+        width: 17rem;
+    }
+  }
+  
