@@ -1,7 +1,10 @@
 
 @media screen and (min-width: 600px) {
     .home-bg-image{
-        max-width: 280rem;
+        max-width: 17rem;
+    }
+    .stats{
+      margin-top: 7rem;
     }
   }
   @media screen and (max-width: 600px) {
@@ -9,4 +12,47 @@
         width: 17rem;
     }
   }
-  
+  .hex-image {
+    width: 340px;
+    height: 300px;
+    background: transparent url("../img/leaning.jpg") no-repeat; 
+    background-size: cover;
+    background-position: 50% 40%;
+    position: relative;
+    margin: 50px auto; /* centering */
+    transform: rotate(10deg); /* need to rotation ? */
+}
+/* Left shape */
+.hex-image:before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 0;
+  height: 3px;    
+  border-right: 85px solid transparent;
+  border-bottom: 155px solid white;
+  border-top: 150px solid white;
+}
+/* Right shape */
+.hex-image:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 0;
+  height: 3px;    
+  border-left: 85px solid transparent;
+  border-bottom: 155px solid white;
+  border-top: 150px solid white;
+}
+.skills-list ul{
+  list-style: none;
+}
+.skills-list ul li{
+  font-size: x-large;
+  font-family: 'Raleway', sans-serif;
+}
+/* .carousel-img{
+  width: 20rem;
+} */
