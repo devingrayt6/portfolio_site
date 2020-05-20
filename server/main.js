@@ -14,7 +14,7 @@ let server = express();
 server.use(express.static(__dirname + "/../client"));
 
 //NOTE Allows requests from the port 8080, add additional addresses as needed
-let whitelist = ["http://localhost:8080"];
+let whitelist = ["http://localhost:8080", "https://devingray.herokuapp.com/"];
 let corsOptions = {
   origin: function (origin, callback) {
     var originIsWhitelisted = whitelist.indexOf(origin) !== -1;
