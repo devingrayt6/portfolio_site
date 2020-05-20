@@ -196,7 +196,7 @@ $(function () {
     }, {
         offset: '90%'
     });
-    
+
     $('[data-animate-hover]').hover(function () {
         $(this).css({
             opacity: 1
@@ -253,7 +253,7 @@ $(function () {
 function map() {
 
     var mapId = 'map',
-        mapCenter = [53.14, 8.22],
+        mapCenter = [43.58, -116.56],
         mapMarker = true;
 
     if ($('#' + mapId).length > 0) {
@@ -275,7 +275,7 @@ function map() {
 
         var map = L.map(mapId, {
             center: mapCenter,
-            zoom: 13,
+            zoom: 9,
             dragging: dragging,
             tap: tap,
             scrollWheelZoom: false

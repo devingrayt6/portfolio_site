@@ -19,8 +19,8 @@ Bootstrapious Boilerplate Template
 
 .animated {
   visibility: visible;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1.25s;
 }
 
 body {
