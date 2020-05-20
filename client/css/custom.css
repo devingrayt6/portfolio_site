@@ -54,7 +54,13 @@
   font-family: 'Raleway', sans-serif;
 }
 .xsmall-font{
-  font-size: xx-small;
+  font-size: 5px !important;
+}
+.social-links{
+  font-size: 45px !important;
+}
+.social-links :hover{
+  color: grey
 }
 /* .carousel-img{
   width: 20rem;
