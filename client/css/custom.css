@@ -53,6 +53,9 @@
   font-size: x-large;
   font-family: 'Raleway', sans-serif;
 }
+.xsmall-font{
+  font-size: xx-small;
+}
 /* .carousel-img{
   width: 20rem;
 } */
